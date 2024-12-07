@@ -13,3 +13,20 @@
 [error] [2024-11-19T16:23:01.072Z] : × Below file formats are not allowed in Sigma
 [info] [2024-11-19T16:23:01.075Z] :  ==> app\Widget\build\favicon.ico
 [info] [2024-11-19T16:23:01.076Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[info] [2024-12-07T06:54:27.131Z] : 
+[info] [2024-12-07T06:54:27.146Z] : Click this URL to login to your Zoho Account
+[info] [2024-12-07T06:54:27.147Z] : https://accounts.zoho.com/oauth/v2/auth?client_id=1000.gnjph6g96nf23jd4u14tba2egykhik&scope=ZAPPS.apps.ALL%20AaaServer.profile.READ%20ZMProcessors.connectors.CREATE&response_type=code&access_type=offline&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] [2024-12-07T06:54:27.150Z] : Note: To login to CN DC, update the above URL from accounts.zoho.com to accounts.zoho.com.cn
+[info] [2024-12-07T06:54:27.151Z] : 
+[debug] [2024-12-07T06:54:40.092Z] : DCType Of the user is us
+[debug] [2024-12-07T06:54:40.096Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request query omitted>
+
+[debug] [2024-12-07T06:54:41.335Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Sat, 07 Dec 2024 06:54:40 GMT","content-type":"application/json;charset=UTF-8","content-length":"337","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=9f371135a524e2d1f51eb9f41fa26c60; Path=/; Secure; HttpOnly","iamcsr=29ee1cbd-03a8-49a5-856a-a3ab0ff4ed74;path=/;Secure;priority=high","_zcsr_tmp=29ee1cbd-03a8-49a5-856a-a3ab0ff4ed74;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-12-07T06:54:41.354Z] : >>>> HTTP REQUEST : GET https://accounts.zoho.com/oauth/user/info 
+
+[debug] [2024-12-07T06:54:41.778Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Sat, 07 Dec 2024 06:54:40 GMT","content-type":"application/json;charset=UTF-8","content-length":"142","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=e3b29af1-1c19-4cca-b4fe-926dbbf418e5;path=/;Secure;priority=high","_zcsr_tmp=e3b29af1-1c19-4cca-b4fe-926dbbf418e5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
